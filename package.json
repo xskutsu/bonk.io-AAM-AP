@@ -1,0 +1,26 @@
+{
+	"scripts": {
+		"clean": "rimraf dist",
+		"build": "pnpm run clean && node scripts/esbuild.cjs",
+		"watch": "pnpm run clean && node scripts/esbuild.cjs --watch",
+		"serve": "node scripts/serve.mjs",
+		"dev": "node scripts/dev.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xskutsu/bonk.io-AAM-AP.git"
+	},
+	"author": {
+		"name": "xskutsu",
+		"url": "https://github.com/xskutsu"
+	},
+	"bugs": {
+		"url": "https://github.com/xskutsu/bonk.io-AAM-AP"
+	},
+	"homepage": "https://github.com/xskutsu/bonk.io-AAM-AP#readme",
+	"dependencies": {
+		"esbuild": "^0.25.9",
+		"rimraf": "^6.0.1",
+		"typescript": "^5.9.2"
+	}
+}
