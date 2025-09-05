@@ -19,9 +19,11 @@
 	},
 	"homepage": "https://github.com/xskutsu/bonk.io-AAM-AP#readme",
 	"dependencies": {
-		"@types/greasemonkey": "^4.0.7",
 		"esbuild": "^0.25.9",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.9.2"
+	},
+	"devDependencies": {
+		"@types/greasemonkey": "^4.0.7"
 	}
 }
