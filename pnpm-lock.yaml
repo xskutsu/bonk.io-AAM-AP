@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@types/greasemonkey':
-        specifier: ^4.0.7
-        version: 4.0.7
       esbuild:
         specifier: ^0.25.9
         version: 0.25.9
@@ -20,6 +17,10 @@ importers:
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
+    devDependencies:
+      '@types/greasemonkey':
+        specifier: ^4.0.7
+        version: 4.0.7
 
 packages:
 
