@@ -11,11 +11,11 @@ const banner = `
 // @author       https://github.com/xskutsu
 // @match        *://bonk.io/gameframe-release.html
 // @match        *://bonkisback.io/gameframe-release.html
+// @match        *://multiplayer.gg/physics/gameframe-release.html
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bonk.io
-// @grant        unsafeWindow
-// @grant        GM_addStyle
-// @grant        GM_getValue
-// @grant        GM_setValue
+// @grant        GM.getValue
+// @grant        GM.setValue
+// @grant        GM.listValues
 // @run-at       document-start
 // ==/UserScript==`.trim();
 
