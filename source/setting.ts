@@ -54,7 +54,7 @@ function volumeValidator(value: number): boolean {
 
 export const config = {
 	advancedAudioManager: {
-		globalVolume: new Setting<number>("aam.global_vume", 0, volumeValidator),
+		globalVolume: new Setting<number>("aam.global_vume", 80, volumeValidator),
 	},
 	audioPatches: {
 		modeSelector: new Setting<boolean>("ap.mode_selector", true),
