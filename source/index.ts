@@ -10,7 +10,7 @@ Array.prototype.push = function (...items: any[]): number {
 	return Array__proto__push.apply(this, items);
 };
 
-function afterDOMContentLoaded(): Promise<void> {
+function DOMContentLoaded(): Promise<void> {
 	return new Promise(function (resolve) {
 		if (document.readyState === "loading") {
 			window.addEventListener("DOMContentLoaded", function () {
@@ -25,6 +25,6 @@ function afterDOMContentLoaded(): Promise<void> {
 (async function () {
 	await GMClearValues();
 	await initializeConfig();
-	await afterDOMContentLoaded();
+	await DOMContentLoaded();
 	Whimper.initialize();
 })();
