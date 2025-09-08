@@ -9,5 +9,5 @@
 // @grant        GM.setValue
 // @grant        GM.listValues
 // @run-at       document-start
-// @require      http://localhost:3001/your-script.js
+// @require      http://localhost:3001/
 // ==/UserScript==
