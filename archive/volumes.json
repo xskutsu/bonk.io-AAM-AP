@@ -1,0 +1,34 @@
+[
+	{
+		"key": "capIncrease",
+		"value": 0.6
+	},
+	{
+		"key": "capDecrease",
+		"value": 0.6
+	},
+	{
+		"key": "classicButtonHover",
+		"value": 0.65
+	},
+	{
+		"key": "classicButtonClick",
+		"value": 0.55
+	},
+	{
+		"key": "listRowHover",
+		"value": 0.25
+	},
+	{
+		"key": "listRowClick",
+		"value": 0.5
+	},
+	{
+		"key": "classicButtonBack",
+		"value": 0.55
+	},
+	{
+		"key": "capComplete",
+		"value": 0.6
+	}
+]
